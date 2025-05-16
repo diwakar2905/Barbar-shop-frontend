@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fama Barber Shop & Beauty Salon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="navbar-container">
+      <div class="logo">
+        <img src="Black and Gold Illustrative Beauty Salon Logo.png" alt="Fama Barber Shop & Beauty Salon Logo" class="logo-img">
+      </div>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about-barber-shop">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-header">
+        <span class="since-label">SINCE</span>
+        <div class="hero-center">
+          <!-- Arc-shaped heading using SVG -->
+          <svg viewBox="0 0 600 120" width="600" height="120" class="hero-arc-svg">
+            <path id="arcPath" d="M60,100 Q300,10 540,100" fill="transparent"/>
+            <text width="600">
+              <textPath xlink:href="#arcPath" startOffset="50%" text-anchor="middle" class="hero-arc-text">
+                FAMA
+              </textPath>
+            </text>
+          </svg>
+          <h1>BARBER SHOP</h1>
+        </div>
+        <span class="year-label">2023</span>
+      </div>
+      <p class="hero-desc">
+        Where style meets precision.
+      </p>
+      <div class="hero-cta">
+        <a href="#booking" class="btn btn-gold btn-hero-cta" style="text-decoration:none;">Book My Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT OUR BARBER SHOP -->
+  <section id="about-barber-shop">
+    <div class="about-barber-container">
+      <div class="about-barber-images">
+        <img src="4.png" alt="Barber working"  ; width="800px">
+        <img src="6.png" alt="Barber working">
+      </div>
+      <div class="about-barber-text">
+        <h2>ABOUT OUR<br>BARBER SHOP</h2>
+        <p>
+          Welcome to Fama Barber Shop & Beauty Salon!<br>Conveniently located at 500 N Bell Ave #109, Denton, TX 76209, we blend the timeless art of traditional barbering with the latest trends in men's and women's grooming. Our passionate team is committed to delivering top-tier service in a friendly, inviting environment-so you always leave looking and feeling your best.
+        </p>
+        <p>
+          <strong>Hours of Operation</strong><br>
+          Monday – Friday: 9:00 AM – 7:00 PM<br>
+          Saturday: 10:00 AM – 6:00 PM<br>
+          Sunday: 11:00 AM – 4:00 PM
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why-choose-us">
+    <div class="why-container">
+      <div class="why-text">
+        <h2>WHY SHOULD YOU<br>CHOOSE US?</h2>
+        <p>
+          At Fama, we believe every client deserves the best. Here's what sets us apart:
+        </p>
+        <ul class="why-bullets">
+          <li>Premium Products: Only the finest products touch your hair.</li>
+          <li>Impeccable Hygiene: We maintain the highest cleanliness standards.</li>
+          <li>Expert Barbers: Our skilled professionals are passionate about grooming.</li>
+          <li>Relaxed Atmosphere: Enjoy a comfortable, welcoming space for your services.</li>
+          <li>Convenient location with easy parking and Google Maps directions.</li>
+        </ul>
+      </div>
+      <div class="why-image">
+        <img src="5.png" alt="Barber with client" style="height: 640px; max-width: 100%;">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- OUR SERVICES -->
+  <section id="services">
+    <div class="service-flex">
+      <div class="service-content-col">
+        <h2 class="service-title">Barber Service</h2>
+        <div class="service-cards-row">
+          <div class="service-card">
+            <div class="service-icon">👥</div>
+            <div class="service-card-title">Service 01</div>
+            <div class="service-card-desc">Haircuts & Fades: Modern and classic styles tailored to you.</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">✂️</div>
+            <div class="service-card-title">Service 02</div>
+            <div class="service-card-desc">Beard Grooming: Precision trims and styling.</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🏠</div>
+            <div class="service-card-title">Service 03</div>
+            <div class="service-card-desc">Shaves & Trims: Hot towel shaves and clean finishes.</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">⚙️</div>
+            <div class="service-card-title">Service 04</div>
+            <div class="service-card-desc">Hair Coloring: Professional color services to express your style.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREMIUM HAIRCUTS -->
+  <section id="premium-haircuts">
+    <div class="premium-container">
+      <h2>
+        <span class="premium-white">PREMIUM</span> <span class="premium-gold">HAIRCUTS</span>
+      </h2>
+      <div class="premium-cards">
+        <div class="premium-card">
+          <div class="premium-card-header">CLASSIC STYLES</div>
+          <div class="premium-card-body">
+            Our classic cuts never go out of style. From business trims to timeless tapers, we deliver sharp, clean results every time.
+          </div>
+        </div>
+        <div class="premium-card">
+          <div class="premium-card-header">MODERN TRENDS</div>
+          <div class="premium-card-body">
+            Stay ahead of the curve with the latest styles, fades, and creative designs-customized to your look.
+          </div>
+        </div>
+        <div class="premium-card">
+          <div class="premium-card-header">PERSONALIZED CUTS</div>
+          <div class="premium-card-body">
+            Every client is unique. We listen to your needs and craft a cut that fits your personality and lifestyle.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUTS FOR ALL -->
+  <section id="cuts-for-all">
+    <div class="cuts-container">
+      <div class="cuts-text">
+        <h2>
+          STYLISH CUTS<br>
+          FOR <span class="highlight">ALL</span>
+        </h2>
+        <div class="cuts-feature">
+          <span class="cuts-icon">👦</span>
+          <p>Kids' cuts with care and patience-fun styles for our youngest clients!</p>
+        </div>
+        <div class="cuts-feature">
+          <span class="cuts-icon">🧑</span>
+          <p>Trendy and classic looks for men, teens, and everyone in between.</p>
+        </div>
+        <div class="cuts-feature">
+          <span class="cuts-icon">👩</span>
+          <p>Inclusive styling for all genders and hair types-everyone is welcome!</p>
+        </div>
+      </div>
+      <div class="cuts-images">
+        <img src="8.png" alt="Barber cutting hair" style="height: 400px; margin-right: 24px;">
+        <img src="9.png" alt="Barber cutting hair" style="height: 440px; margin-right: 24px;">
+        <img src="10.png" alt="Barber cutting hair" style="height: 400px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER FEEDBACK SECTION -->
+  <section id="customer-feedback">
+    <div class="feedback-container">
+      <div class="feedback-left">
+        <h2>Customer<br>Feedback</h2>
+      </div>
+      <div class="feedback-right">
+        <div class="feedback-card">
+          <img class="feedback-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rufus Stewart">
+          <div class="feedback-quote">&#8220;</div>
+          <div class="feedback-text">"The staff is amazing and the service is top-notch! I always leave looking sharp and feeling great. Highly recommended."
+            - Anna Lee, ★★★★☆</div>
+          <div class="feedback-name">Rufus Stewart</div>
+          <div class="feedback-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="feedback-card">
+          <img class="feedback-avatar" src="https://randomuser.me/api/portraits/men/33.jpg" alt="Shawn Garcia">
+          <div class="feedback-quote">&#8220;</div>
+          <div class="feedback-text">"Professional, friendly, and talented barbers. Fama is my go-to spot."
+            - Shawn Garcia, ★★★★★</div>
+          <div class="feedback-name">Shawn Garcia</div>
+          <div class="feedback-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <div class="feedback-card">
+          <img class="feedback-avatar" src="https://randomuser.me/api/portraits/men/34.jpg" alt="Matt Zhang">
+          <div class="feedback-quote">&#8220;</div>
+          <div class="feedback-text">"Great atmosphere and even better results. I love my new look!"
+            - Matt Zhang, ★★★★☆</div>
+          <div class="feedback-name">Matt Zhang</div>
+          <div class="feedback-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        </div>
+        <div class="feedback-card">
+          <img class="feedback-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Anna Lee">
+          <div class="feedback-quote">&#8220;</div>
+          <div class="feedback-text">Amazing service and friendly staff! I always leave feeling refreshed and looking my best. Highly recommended.</div>
+          <div class="feedback-name">Anna Lee</div>
+          <div class="feedback-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR MISSION -->
+  <section id="our-mission">
+    <div class="mission-container">
+      <div class="mission-content">
+        <h2>OUR MISSION</h2>
+        <div class="mission-grid">
+          <div class="mission-item">
+            <div class="mission-number">01</div>
+            <div class="mission-text">
+              Deliver exceptional grooming services in a welcoming, inclusive space.
+            </div>
+          </div>
+          <div class="mission-item">
+            <div class="mission-number">02</div>
+            <div class="mission-text">
+              Stay at the forefront of style and technique through ongoing education.
+            </div>
+          </div>
+          <div class="mission-item">
+            <div class="mission-number">03</div>
+            <div class="mission-text">
+              Support our local community and build lasting relationships with our clients.
+            </div>
+          </div>
+          <div class="mission-item">
+            <div class="mission-number">04</div>
+            <div class="mission-text">
+              Uphold the highest standards of cleanliness, safety, and professionalism.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mission-image">
+        <img src="Black and Gold Elegant Salon Presentation.png" alt="Barber at work" style="height: 120%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING FORM -->
+  <section id="booking">
+    <div class="booking-form-card">
+      <h2>Book an Appointment</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="Date" required>
+        <select required>
+          <option value="">Select a service</option>
+          <option>Haircut & Fade</option>
+          <option>Beard Grooming</option>
+          <option>Shave</option>
+          <option>Hair Coloring</option>
+        </select>
+        <button type="submit" class="btn btn-gold" style="width:100%;">Reserve Spot</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-section">
+    <div class="contact-flex">
+      <div class="contact-map">
+        <iframe
+          src="https://www.google.com/maps?q=500+N+Bell+Ave+%23109,+Denton,+TX+76209&output=embed"
+          width="100%" height="320" style="border:0; border-radius: 8px; box-shadow: 0 4px 24px #000a;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-info">
+        <h2>Contact & Location</h2>
+        <ul class="contact-list">
+          <li><span class="contact-icon">📍</span>500 N Bell Ave #109, Denton, TX 76209, United States</li>
+          <li><span class="contact-icon">📞</span><a href="tel:+19406129127" style="color:inherit;text-decoration:none;">+1 940-612-9127</a></li>
+          <li><span class="contact-icon">✉️</span><a href="mailto:info@famabarber.com" style="color:inherit;text-decoration:none;">info@famabarber.com</a></li>
+        </ul>
+        <a href="https://www.google.com/maps?q=500+N+Bell+Ave+%23109,+Denton,+TX+76209" target="_blank" class="btn btn-outline" style="margin-top:20px;">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <span>Fama Barber's</span>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about-barber-shop">About</a></li>
+        <li><a href="#why-choose-us">Why Choose Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#premium-haircuts">Premium</a></li>
+        <li><a href="#cuts-for-all">Cuts for All</a></li>
+        <li><a href="#our-mission">Mission</a></li>
+        <li><a href="#booking">Book</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="cursor-follower"></div>
+  <script>
+    const cursor = document.querySelector('.cursor-follower');
+    let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
+    let currentX = mouseX, currentY = mouseY;
+    const speed = 0.18;
+
+    function animateCursor() {
+      currentX += (mouseX - currentX) * speed;
+      currentY += (mouseY - currentY) * speed;
+      cursor.style.left = currentX + 'px';
+      cursor.style.top = currentY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+
+    // Zoom effect on hover
+    function setCursorZoomEvents() {
+      const zoomTargets = document.querySelectorAll('.btn, .btn-gold, .btn-outline, .btn-hero-cta, .cursor-zoom');
+      zoomTargets.forEach(el => {
+        el.classList.add('cursor-zoom');
+        el.addEventListener('mouseenter', () => {
+          cursor.classList.add('active');
+          el.classList.add('zoomed');
+        });
+        el.addEventListener('mouseleave', () => {
+          cursor.classList.remove('active');
+          el.classList.remove('zoomed');
+        });
+      });
+    }
+    setCursorZoomEvents();
+  </script>
+</body>
+</html>
