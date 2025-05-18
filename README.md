@@ -1,9 +1,9 @@
-# Barbar-shop-frontend
-💈 Barbar Shop – Frontend
+# FAMA Barbar Shop – Frontend
+
 A modern and responsive barber shop website built to enhance customer experience and simplify service booking. Designed with attention to aesthetics and usability, this frontend was created with the help of Generative AI (GenAI) to streamline the design process and ensure a clean, intuitive user interface.
-
+***
 🌐 Live Demo: https://barbar-shop-frontend.vercel.app
-
+***
 🌟 Overview
 Barbar Shop is a fully responsive, mobile-friendly web interface for barber businesses, featuring a clean landing page, service highlights, and scalable components ready for backend integration.
 The design layout and UI concepts were generated and refined using GenAI tools, allowing for rapid ideation and development with a modern look and feel.
